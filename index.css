@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Itim&display=swap');
+body{
+    
+    background-color: rgb(17, 11, 53);
+}
+h1{
+    font-family: 'Itim', cursive;
+    margin-left: 520px;
+    color: gold;
+}
+/* css to  a whole container */
+.container{
+    height: 500px;
+    width: 380px;
+    background-color: rgb(17, 11, 53);
+    border-radius: 25px;
+    margin-left: 500px;
+    margin-top: 50px;
+    box-shadow: 0px 3px 6px 3px gold;
+}
+.box{
+    margin-left: 25px; 
+}
+
+/* Css To Input */
+.box input{
+    font-family: 'Itim', cursive;
+    color: aliceblue;
+    border: 1px ;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    height: 75px;
+    width: 300px;
+    margin-bottom: 10px;
+    /* background-color: gold; */
+    background-color: rgb(17, 11, 53);
+}
+
+.button{
+    font-family: 'Itim', cursive;
+    border-radius: 50%;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    background-color: rgb(12, 8, 43);
+    color: rgb(254, 255, 255);
+    height:60px;
+    width: 60px;
+    border: 2px  ;
+    transform:scale(1);
+    transition: 0.5s;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#operator{
+    color: gold;
+}
+#operators{
+    color: aliceblue;
+    background-color: orange;
+}
+
+/* Media Query for calculator */
+@media only screen and (max-width:426px){
+    h1{
+        margin: 0px;
+    }
+    .container{
+    height: 390px;
+    width: 290px;
+    margin-top: 100px;
+    margin-left: 65px; 
+    }
+    .button{
+        height: 40px;
+        width: 40px;
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 50%;
+        font-weight: lighter;
+    }
+    .box{
+        margin-left: 9px;
+    }
+    .box input{
+        height: 50px;
+    }
+}
